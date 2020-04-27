@@ -1,0 +1,435 @@
+body{
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    line-height: 26px;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    margin-left: 170px;
+    margin-right: 120px;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #88898B;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 1;
+    font-family: "Bureau Grot", sans-serif;
+    font-size: 20px;
+}
+
+#navbar a{
+    display: inline-block;
+    padding: 20px;
+    color: #FFDD00;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color:white;
+}
+
+#navbar a:active{
+    background-color: darkgrey;
+}
+
+#divider2{
+    width: 1000px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #88898B;
+}
+
+
+h2{
+    font-family: "Bureau Grot", sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+    margin-left: 0px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    color: #88898B;
+}
+
+hr{
+    width: 400px;
+    height: 15px;
+    background-color: #FFDD00;
+    border-width: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-family: "Bureau Grot", sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    letter-spacing: 1px;
+    color: #88898B;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+
+#subhead{
+    width: 225px;
+    height: 3px;
+    padding-top: 0px;
+    color:#88898B;
+    border-width: 0px;
+    margin-bottom: 20px;
+}
+
+#divider{
+    width: 900px;
+    height: 1px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.about{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.about p{
+    width: 635px;
+    margin-bottom: 50px;
+}
+
+.about img{
+    float: right;
+    transform: translateY(-40px);
+    margin-bottom: 50px;
+}
+
+.founder img{
+    float: left;
+    padding-right: 30px;
+    margin-right: 15px;
+    margin-top: 18px;
+}
+
+.founder p{
+    margin-bottom: 85px;
+    margin-left: 275px;
+    width: 600px;
+}
+
+#home{
+    margin-top: 75px;
+}
+
+.services{
+    margin-bottom: 150px;
+}
+
+.services p{
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.features{
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-left: 80px;
+}
+
+li{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.services img {
+    float: right;
+    margin: 25px;
+    transform: translateY(-200px);
+    margin-bottom: 100px;
+}
+
+.volunteer{
+    margin-bottom: 30px;
+    width: 630px;
+}
+
+button{
+    margin-left: 220px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.contact p{
+    width: 320px;
+}
+
+.message{
+    float: right;
+    transform: translateY(-700px);
+    transform: translateX(-260px);
+}
+
+#email2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#name{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#message{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+footer {
+    font-family: "Avenir" sans-serif;
+    background-color: #88898B;
+    color: #FFDD00;
+    margin-top: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+
+
+*/Donate Page coding
+
+#donate{
+    margin-top: 100px;
+    
+}
+
+.donate{
+    width: 550px;
+}
+
+h6{
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.donation-type{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+    margin-right: 100px;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+
+.single-line{
+    margin-top: 30px;
+}
+
+#onetime{
+    font-size: 20px;
+}
+
+#monthly{
+    font-size: 20px;
+}
+
+#amount{
+    font-size: 20px;
+}
+
+.info{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#fname{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#lname{
+    font-size: 20px;
+}
+
+
+.last{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+
+#street{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#postdistrict{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#postcode{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#country{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.phonenumber{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+#email{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#phone{
+    font-size: 20px;
+}
+
+.cards{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#nameoncard{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#cardnumber{
+    font-size: 20px;
+}
+
+#cvv{
+    font-size: 20px;
+}
+
+.cvv{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+
+#xmonth{
+    font-size: 20px;
+}
+
+#xyear{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.year{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+
+::placeholder{
+    color: red;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 200px;
+    height:50px;
+    font-family: "Avenir", sans-serif;
+    font-size: 25px;
+    color: #88898B;
+    background: #FFDD00;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+*/Thank you Donate Page coding
+
+.thankyou{
+    width: 1400px;
+}
+
+h1{
+    font-family: "Bureau Grot", sans-serif;
+    font-size: 90px;
+    margin: 200px;
+    letter-spacing: 2px;
+    color: #88898B;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.return{
+    width: 1378px;
+    text-align: center;
+}
+
+h3{
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
